@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e6f25fc7d0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kranky&family=Orbitron&family=Roboto:wght@500&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div class="wrap">
+        <div class="title">
+            <h1>Currency converter</h1>
+        </div>
+    
+    <div class="form">
+    <form class="form" action="">
+    <input placeholder = "British pound £" id="placeHolder" type="number" class="input"> 
+    <select name="exchange" id="money" onchange="changeOption()" >
+        <option value="pound">Pound</option>
+        <option value="dolar" >Dolar</option>
+        <option value="euro">Euro</option>
+    </select>
+</form>
+<button>check value</button>
+    </div>
+        <div class="rates">
+            <h1>Daily rates for GBP :</h1>
+            <ul>
+                <li> <img src="/photo/european-union.png": alt=""> <h2 class="rates">1.16</h2></li>
+                <li><img src="/photo/united-states (1).png" alt=""> <h2 class="rates">1.40</h2></li>
+                <li><img src="/photo/switzerland.png" alt=""> <h2 class="rates">1.28</h2></li>
+                <li><img src="/photo/poland.png" alt=""> <h2 class="rates">5.25</h2></li>
+                <li><img src="/photo/australia.png" alt=""> <h2 class="rates">1.78</h2></li>
+                <li><img src="/photo/chinese.png" alt=""> <h2 class="rates">9.04</h2></li>
+                <li><img src="/photo/japan.png" alt=""> <h2 class="rates">149.06</h2></li>
+                <li><img src="/photo/czech-republic.png" alt=""> <h2 class="rates">30.25</h2></li>
+                <li><img src="/photo/russia.png" alt=""><h2 class="rates">103.04</h2></li>
+                <li><img src="/photo/turkey.png" alt=""><h2 class="rates">10.28</h2></li>
+                <li><img src="/photo/colombia.png" alt=""><h2 class="rates">5107.57</h2></li>
+                
+            </ul>
+        </div>
+        <div class="wrap__form">
+        
+
+    <div class="button__section">
+    <section>
+        <p id="euro" >Euro:</p> <p class="result"></p>
+        <p id = "dolar">Dolar:</p><p class="result"></p>
+        <p>CHF: </p><p class="result"></p>
+        <p>Zloty: </p><p class="result"></p>
+        <p>Pound: </p><p class="result"></p>
+        <p>Australian Dollar: </p><p class="result"></p>
+        <p>Chinese Yuan: </p><p class="result"></p>
+        <p>Japanese Yen: </p><p class="result"></p>
+        <p>Czech Koruna: </p><p class="result"></p>
+        <p>Russian Ruble: </p><p class="result"></p>
+        <p>Turkish Lira: </p><p class="result"></p>
+        <p>Colombian Peso: </p><p class="result"></p>
+    </section>
+</div>
+</div>
+</div>
+    <script src="main.js"></script>
+
+</body>
+</html>
+
+<!-- (value / money[index++]).toFixed(2)  ) -->
